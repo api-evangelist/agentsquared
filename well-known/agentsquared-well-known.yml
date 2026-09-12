@@ -1,0 +1,89 @@
+generated: '2026-09-12'
+method: probed
+source: https://agentsquared.com/.well-known/
+name: AgentSquared well-known discovery probe
+description: >-
+  Probe record for RFC 8615 /.well-known/ discovery documents on every host this record knows.
+  IMPORTANT PROVENANCE CAVEAT: agentsquared.com is NO LONGER OPERATED BY THIS COMPANY. WHOIS
+  shows the registration was updated 2026-02-11 to DevExpanse Ltd d/b/a Regery.com, and the
+  WordPress REST discovery document at https://agentsquared.com/wp-json/ reports the site name
+  as "Online Casinos" with a page set (Best Online Casinos for US Players, Responsible Gambling,
+  How We Evaluate) last modified 2026-04-22. The 404s recorded below are therefore an absence on
+  a domain the new registrant controls, NOT a measurement of anything AgentSquared publishes.
+  No WellKnown or SecurityTxt pointer is emitted from this file: every probed path missed, and
+  the host is not the company's.
+hosts:
+- host: www.agentsquared.com
+  note: >-
+    Apex and www resolve to the same Cloudflare-fronted WordPress install now serving unrelated
+    online-casino affiliate content. The site root answers 403 with a Cloudflare "Attention
+    Required!" interstitial to non-browser clients; /.well-known/* paths answer 404 with an HTML
+    error body.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: agentsquared.com
+  note: >-
+    Registrable domain. Same origin and same results as the www host.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: dashboard.agentsquared.com
+  note: >-
+    The customer login host the company's own navigation linked to while it operated
+    (https://dashboard.agentsquared.com/login/auth/login, present in Wayback captures through
+    2024). The hostname no longer resolves in DNS, so no path could be probed.
+  documents: []
+x-not-probed:
+  reason: >-
+    No apis[] entry, no baseURL and no OpenAPI servers[] host exists on this record, and no
+    developer or docs host was ever published by this company, so there were no further hosts
+    to probe.
+x-excluded-hosts:
+- host: agentsquared.net
+  reason: >-
+    DIFFERENT COMPANY — do not probe or attach under this record. agentsquared.net was created
+    2026-03-10 (GoDaddy) and belongs to "AgentSquared (A2), the co-evolving agent network", an
+    AI agent platform with its own GitHub organization (AgentSquaredNet) and npm package
+    (@agentsquared/cli). It has no relationship to the 2013 La Jolla real estate marketing
+    company this record profiles. Its /.well-known/agent-card.json answers 200 with an HTML SPA
+    shell, which is the dominant false positive the agent-card probe warns about, so it is not a
+    real agent card even for that company.
