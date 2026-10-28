@@ -1,4 +1,4 @@
-# Agentsquared
+# AgentSquared
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Agentsquared is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/agentsquared
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
+
+AgentSquared was a La Jolla, California real estate marketing technology company, founded in 2013 by Albert Lopez and a team its LinkedIn page describes as "Internet pioneers who have founded, built and sold leading brand name Internet companies such as Media Temple, Miva, and Attracta." Its product was marketing automation for real estate agents and brokers: Instant IDX websites provisioned with a single click, single-property websites generated automatically for new listings, social sharing of those listings, lead capture and CRM, and Google Business Profile and Local Services Ads management. The company was notable as an API CONSUMER rather than an API producer — it was a RESO (Real Estate Standards Organization) member and one of the few vendors building on the National Association of Realtors Web API standard, using deep integrations and channel partnerships with MLS software providers to pull a broker's identity and listing data straight out of the MLS and stand up a fully populated website from it. It worked with RESO to help define and document the client portion of the RESO Web API certification program. AgentSquared never published a developer program of its own: no developer portal, API reference, OpenAPI or other machine-readable contract, SDK, or public package ever appeared on its site. The company reached roughly $961K in reported revenue without raising venture capital. Its web presence is now gone — see x-status below.
+
+**Areas:** Company · Real Estate · Real Estate Technology · Marketing Automation · MLS · IDX · RESO · Lead Generation · Website Builder · Defunct
+
+## AgentSquared on APIs.io (historical record)
+
+Everything profiled for AgentSquared is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentsquared/](https://apis.io/providers/agentsquared/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AgentSquared: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentsquared/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
